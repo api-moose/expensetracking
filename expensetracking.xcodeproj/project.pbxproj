@@ -17,6 +17,8 @@
 		9635BC092895F7CA002905AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635BBDF2895F7C7002905AD /* ContentView.swift */; };
 		9635BC0A2895F7CA002905AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9635BBE02895F7CA002905AD /* Assets.xcassets */; };
 		9635BC0B2895F7CA002905AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9635BBE02895F7CA002905AD /* Assets.xcassets */; };
+		9635BC1B2895FFD1002905AD /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635BC1A2895FFD1002905AD /* extensions.swift */; };
+		9635BC1C2895FFD1002905AD /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635BC1A2895FFD1002905AD /* extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		9635BBFE2895F7CA002905AD /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9635BC022895F7CA002905AD /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9635BC042895F7CA002905AD /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		9635BC1A2895FFD1002905AD /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				9635BBDE2895F7C7002905AD /* expensetrackingApp.swift */,
 				9635BBDF2895F7C7002905AD /* ContentView.swift */,
+				9635BC1A2895FFD1002905AD /* extensions.swift */,
 				9635BBE02895F7CA002905AD /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -301,6 +305,7 @@
 			files = (
 				9635BC082895F7CA002905AD /* ContentView.swift in Sources */,
 				9635BC062895F7CA002905AD /* expensetrackingApp.swift in Sources */,
+				9635BC1B2895FFD1002905AD /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				9635BC092895F7CA002905AD /* ContentView.swift in Sources */,
 				9635BC072895F7CA002905AD /* expensetrackingApp.swift in Sources */,
+				9635BC1C2895FFD1002905AD /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
